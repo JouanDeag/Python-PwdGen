@@ -5,7 +5,7 @@ length = int(input("Input Desired Length: "))
 loop = 0
 pwd = ""
 while loop < length:
-    number = random.SystemRandom().randint(0, 75)
+    number = random.SystemRandom().randint(0, len(all) - 1)
     pwd += all[number]
     loop += 1
     
